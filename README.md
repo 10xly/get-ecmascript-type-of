@@ -1,3 +1,6 @@
+## Deprecated
+This library is vulnerable. Use [es-typeof](https://npmjs.com/es-typeof) instead, unless you want vulnerabilities, then thats fine
+
 # Welcome to get-ecmascript-type-of 👋
 `get-ecmascript-type-of` is a simple package to get the type of a value.
 
@@ -48,4 +51,5 @@ assert(getTypeOf(function() {}) === "function")
 assert(getTypeOf(() => {}) === "function")
 assert(getTypeOf(class {}) === "function")
 assert(getTypeOf(Math.abs) === "function")
+
 ```
